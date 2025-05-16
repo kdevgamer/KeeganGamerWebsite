@@ -11,36 +11,39 @@ body {
     padding: 8px 24px 24px 24px;
 }
 
-nav ul.head {
-    list-style-type: none;
-    background-color: rgb(31, 31, 31);
-    border: 4px solid white;
-    border-radius: 10px;
-    color: white;
-    font-family: 'Space Mono', monospace;
-    font-weight: bold;
-    padding: 16px;
-}
+header {
+    nav ul {
+        list-style-type: none;
+        background-color: rgb(31, 31, 31);
+        border: 4px solid white;
+        border-radius: 10px;
+        color: white;
+        font-family: 'Space Mono', monospace;
+        font-weight: bold;
+        padding: 16px;
+    }
 
-nav ul.head li.head {
-    display: inline;
-    border-right: 2px solid white;
-    padding: 0 8px;
-}
+    nav ul li {
+        display: inline;
+        border-right: 2px solid white;
+        padding: 0 8px;
+    }
 
-nav ul.head li.head:last-child {
-    border-right: none;
-}
+    nav ul li:last-child {
+        border-right: none;
+    }
 
-nav ul.head li.head a {
-    text-decoration: none;
-    color: white;
-}
+    nav ul li a {
+        text-decoration: none;
+        color: white;
+    }
 
-nav ul.head li.selected {
-    color: #aaa;
-}
+    nav ul li.selected {
+        color: #aaa;
+    }
 
-nav ul.head li.head a:hover {
-    text-decoration: underline;
+    nav ul li a:hover {
+        text-decoration: underline;
+    }
+
 }
