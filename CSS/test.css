@@ -1,43 +1,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=Iceland&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 body {
-background-color: rgb(31, 31, 31);
-color: white;
-font-family: Funnel Display;
-margin-left: auto;
-margin-right: auto;
-max-width: 1024;
-min-width: 256;
-padding-top: 8px;
-padding-bottom: 24px;
-padding-left: 24px;
-padding-right: 24px;
+    background-color: rgb(31, 31, 31);
+    color: white;
+    font-family: 'Funnel Display', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1024px;
+    min-width: 256px;
+    padding: 8px 24px 24px 24px;
 }
-nav ul {
-list-style-type: none;
-background-color: rgb(31, 31, 31);
-border: 4px solid white;
-border-radius: 10px;
-color: white;
-font-family: SpaceMono;
-font-weight: bold;
-padding: 16px;
+
+nav ul.head {
+    list-style-type: none;
+    background-color: rgb(31, 31, 31);
+    border: 4px solid white;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Space Mono', monospace;
+    font-weight: bold;
+    padding: 16px;
 }
-nav ul li {
-display: inline;
-border-right: 2px solid white;
-padding-right: 8px;
-padding-left: 8px;
+
+nav ul.head li.head {
+    display: inline;
+    border-right: 2px solid white;
+    padding: 0 8px;
 }
-nav ul li:last-child {
-border-right: none;
+
+nav ul.head li.head:last-child {
+    border-right: none;
 }
-nav ul li a {
-text-decoration: none;
-color: white;
+
+nav ul.head li.head a {
+    text-decoration: none;
+    color: white;
 }
-nav li.selected {
-    color: #606060;
+
+nav ul.head li.selected {
+    color: #aaa;
 }
-nav li a:hover {
+
+nav ul.head li.head a:hover {
     text-decoration: underline;
 }
