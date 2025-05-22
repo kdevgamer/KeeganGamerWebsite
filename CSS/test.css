@@ -98,11 +98,11 @@ footer{
     background-color: rgb(31, 31, 31);
     font-family: 'Funnel Display', sans-serif;
     p.copyright{
-        float: left;
+        float: right;
         margin-top: 0px;
     }
     p.contact {
-        text-align: right;
+        text-align: left;
     }
     p {
         text-align: right;
